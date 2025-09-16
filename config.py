@@ -20,7 +20,7 @@ LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003009926889"))
 
 # Mongo DB Database Config
 DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://gudiyakum678_db_user:4pyIIsSd8F60Fzo9@cluster0.ad5syvd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"")
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "")
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 
 # Other Variables Config
@@ -38,9 +38,9 @@ START_PIC = os.environ.get("START_PIC", "https://graph.org/file/ad48ac09b1e6f30d
 # Token Verification Adding Features Is Paid So If You Want Then Dm Me
 
 
-# SHORTNER_URL = os.environ.get("SHORTNER_URL", "")
-# SHORTNER_API = os.environ.get("SHORTNER_API", "")
-# TOKEN_TIMEOUT = os.environ.get("TOKEN_TIMEOUT", "")
+# SHORTNER_URL = os.environ.get("SHORTNER_URL", "ind.lol")
+# SHORTNER_API = os.environ.get("SHORTNER_API", "odivex")
+# TOKEN_TIMEOUT = os.environ.get("TOKEN_TIMEOUT", "22i")
 
 
 
