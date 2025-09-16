@@ -5,7 +5,7 @@ import os
 # Required Variables Config
 API_ID = int(os.environ.get("API_ID", "28167693"))
 API_HASH = os.environ.get("API_HASH", "5924714f9a7a69c4fde389805baa7d23")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8227057226:AAEGcySDGTsGawmXG1TCZS4WMLDd1JZWu4E")
 ADMIN = int(os.environ.get("ADMIN", "2021145517"))
 
 
@@ -14,8 +14,8 @@ STRING_SESSION = os.environ.get("STRING_SESSION", "")
 
 
 # Log & Force Channel Config
-FORCE_SUBS = os.environ.get("FORCE_SUBS", "")
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+FORCE_SUBS = os.environ.get("FORCE_SUBS", "-1003009926889")
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003009926889"))
 
 
 # Mongo DB Database Config
